@@ -27,11 +27,8 @@ class Foo(object):
 
 def run():
     red = Foo(1, 197, 18) 
-    Sst.make_ready(red.task_id)
     green = Foo(2, 167, 19)
-    Sst.make_ready(green.task_id)
     blue = Foo(3, 143, 23)
-    Sst.make_ready(blue.task_id)
     Sst.start()
  
 run()
