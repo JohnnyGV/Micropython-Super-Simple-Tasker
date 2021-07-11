@@ -8,10 +8,9 @@ Developed on an ESP32 platform using webrepl and should work on other micropytho
 
 Licensing
 ------------
-The SST source code and examples are released under the terms of the GNU
-General Public License version 3 (GPL) as published by the Free Software
-Foundation and appearing in the file GPL.TXT included in the packaging of this
-file. Please note that GPL Section requires that all works based on this
-software must also be made publicly available under the terms of the GPL
-("Copyleft").
+See LICENSE file 
 
+Description
+-----------
+
+This tasker allows up to 8 tasks. Tasks should be added in priority order using 'add_task' with highest priority task added first. Each task should be designed to run to completion. Tasks can be readied for scheduling using 'make_ready'. Scheduler is started using 'start'.
