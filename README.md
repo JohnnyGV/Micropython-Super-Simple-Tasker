@@ -9,9 +9,9 @@ Developed on an ESP32 platform using webrepl and should work on other micropytho
 Licensing
 ------------
 The SST source code and examples are released under the terms of the GNU
-General Public License version 2 (GPL) as published by the Free Software
+General Public License version 3 (GPL) as published by the Free Software
 Foundation and appearing in the file GPL.TXT included in the packaging of this
-file. Please note that GPL Section 2[b] requires that all works based on this
+file. Please note that GPL Section 3[b] requires that all works based on this
 software must also be made publicly available under the terms of the GPL
 ("Copyleft").
 
