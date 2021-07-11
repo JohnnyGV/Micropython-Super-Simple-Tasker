@@ -16,7 +16,7 @@ This tasker allows up to 8 tasks. Tasks should be added in priority order using 
 
 Simple state machines may implemented by using the initial state as the task. When the task is run, the state may be changed by setting the task for the next state using 'set_task'. See 'example.py" for a simple example.
 
-TODO
+ToDo
 ----
 Add a mechanism to allow data from a callback (eg: from UART or ADC) to be passed to the task  
 
