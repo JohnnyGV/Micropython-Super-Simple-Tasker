@@ -12,5 +12,4 @@ See LICENSE file
 
 Description
 -----------
-
-This tasker allows up to 8 tasks. Tasks should be added in priority order using 'add_task' with highest priority task added first. Each task should be designed to run to completion. Tasks can be readied for scheduling using 'make_ready'. Scheduler is started using 'start'.
+This tasker allows up to 8 tasks. Tasks should be added in priority order using 'add_task' with highest priority task added first. Each task should be designed to run to completion. Scheduler is started using 'start'. Callback functions (for example from a timer) may be used to wake up a task using 'make_ready'.
