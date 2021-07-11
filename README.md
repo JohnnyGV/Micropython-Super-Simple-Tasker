@@ -11,7 +11,7 @@ Licensing
 The SST source code and examples are released under the terms of the GNU
 General Public License version 3 (GPL) as published by the Free Software
 Foundation and appearing in the file GPL.TXT included in the packaging of this
-file. Please note that GPL Section 3[b] requires that all works based on this
+file. Please note that GPL Section requires that all works based on this
 software must also be made publicly available under the terms of the GPL
 ("Copyleft").
 
