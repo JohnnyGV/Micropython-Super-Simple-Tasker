@@ -4,7 +4,7 @@ Loosely based on the work by Miro Samek and Robert Ward (https://github.com/Knig
 
 An interesting backgrounder on SST: https://www.embedded.com/build-a-super-simple-tasker/
 
-Developed on an ESP32 platform using webrepl and should work on other micropython (or python) platforms
+Developed on an ESP32 platform using webrepl and should work on other micropython platforms
 
 Licensing
 ------------
