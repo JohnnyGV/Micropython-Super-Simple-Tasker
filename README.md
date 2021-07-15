@@ -16,6 +16,8 @@ This tasker allows up to 16 tasks. Tasks should be added in priority order using
 
 Simple state machines may implemented by using the initial state as the task. When the task is run, the state may be changed by setting the task for the next state using 'set_task'.
 
+See examples directory for some simple examples.
+
 ToDo
 ----
 Add tasking primtives like mutex and semaphore
