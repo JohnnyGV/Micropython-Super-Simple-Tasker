@@ -12,11 +12,10 @@ See LICENSE file
 
 Description
 -----------
-This tasker allows up to 8 tasks. Tasks should be added in priority order using 'add_task' with highest priority task added first. Each task should be designed to run to completion. Scheduler is started using 'start'. Callback functions (for example from a timer or pin interrupts) may be used to wake up a task using 'make_ready'.
+This tasker allows up to 16 tasks. Tasks should be added in priority order using 'add_task' with lowest priority task added first. Each task should be designed to run to completion. Each task may have an attached queue that may be used for passing information from another task or Callback function. Callback functions (for example from a timer or pin interrupts) may be used to wake up a task using 'make_ready'. The scheduler is started when the first callback is executed.
 
-Simple state machines may implemented by using the initial state as the task. When the task is run, the state may be changed by setting the task for the next state using 'set_task'. See 'example.py" for a simple example.
+Simple state machines may implemented by using the initial state as the task. When the task is run, the state may be changed by setting the task for the next state using 'set_task'.
 
 ToDo
 ----
-Add a mechanism to allow data from a callback (eg: from UART or ADC) to be passed to the task  
-
+Add tasking primtives like mutex and semaphore
